@@ -7,7 +7,7 @@ class App extends Component {
 
   state = {
     chats : ['Hello','Hello2','Hello3'],
-    inputContent: null
+    inputContent: null//This is bad and stupid. But it's ok for now...
   }
 
 
