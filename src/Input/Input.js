@@ -5,7 +5,7 @@ const input = (props) => {
 
 	return (
 		<div className="Input">
-			<input type='text' onChange={props.change}/>
+			<input type='text' onKeyUp={props.change}/>
 			<button className="Button" onClick={props.click} >Submit</button>
 		</div>
 		);
